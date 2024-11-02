@@ -1,2 +1,3 @@
-{% seo title=false %}
+plugins:
+- jekyll-seo-tag
 <!-- theme: jekyll-theme-cayman --> 
