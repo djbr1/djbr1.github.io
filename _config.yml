@@ -21,10 +21,15 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 # Name of website
 title: Branko Djokic HB9TXB
+description: "Electronic Keyer with Integrated Load Sensor Paddles"
+
 
 # Your name to show in the footer
-author: Branko Djokic HB9TXB
-
+author:  
+   name: Branko Djokic HB9TXB
+   email: bdjokic@bluewin.ch
+   home: https://www.qrz.com/db/hb9txb
+   
 
 
 
