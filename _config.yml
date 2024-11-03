@@ -4,6 +4,12 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - X6100 gists: "https://gist.github.com/search?q=user%3Adjbr1+x6100"
+    - Load Sensor Keyer: "https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/README.md"
+  Author's home: "https://www.qrz.com/db/hb9txb"
 include:
   - CONTRIBUTING.md
   - README.md
