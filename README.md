@@ -1,8 +1,27 @@
 <!-- # djbr1.github.io -->
+
+<!-- # FK 11 commit   https://github.com/k3ng/k3ng_cw_keyer/pull/80    -->
+<!-- # FK 11 https://groups.io/g/radioartisan/topic/funtronics_fk_11_command_key/102553448   -->
+
 ### Proof Of Concept 
 ## Electronic Keyer with Integrated Load Sensor Paddles 
 ### Arduino Nano / CS1237 ADC 
-  (by [HB9TXB](https://www.qrz.com/db/hb9txb))
+  (Author [HB9TXB](https://www.qrz.com/db/hb9txb))
+
+
+
+<!-- |||||
+|:---:|:---:|:---:|:---:| -->
+ [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](#license)
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brankodjokic/) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/branko.djokic.3/)  [![A](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&label=share%20on%20twitter&logoColor=white&logoSize=auto)](https://twitter.com/intent/tweet?url=https://djbr1.github.io/&text=Electronic%20Keyer%20with%20Integrated%20Load%20Sensor%20Paddles&hashtags=keyer,iambic,paddle,morse,cwkeyer,hb9txb,morsecode) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]((mailto:bdjokic76%40gmail.com)) [![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/41797532319)
+
+<!--  [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://djbr1.github.io/)  
+| [![Twitter URL](https://img.shields.io/twitter/follow/djbr)](https://twitter.com/djbr)       -->
+
+
+
+
 
 #### Goal: 
 Affordable, powerful and flexible keyer with built-in reliable iambic paddle, easily built without specialised mechanical (machining) skills.
@@ -56,7 +75,7 @@ Affordable, powerful and flexible keyer with built-in reliable iambic paddle, ea
 <br/>
 [![Sensitivity demo](https://img.youtube.com/vi/UNnNl10UAn8/0.jpg)](https://www.youtube.com/watch?v=UNnNl10UAn8)
 <br/>
-[//]:   https://www.youtube.com/watch?v=UNnNl10UAn8
+
 
 
 
