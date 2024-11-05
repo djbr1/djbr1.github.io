@@ -28,7 +28,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - Better reliability compared to capacitive touch paddle - behaves like customary mechanical paddle.
 
 #### Features:
-- Open source [**github repository**](https://github.com/djbr1/k3ng_cw_keyer/)
+- Sensors and ADC add-on are available as open source in [**djbr1/k3ng_cw_keyer github repository**](https://github.com/djbr1/k3ng_cw_keyer/)
 - Equally suitable for beginners and experts.
 - Hardware components are cheap off-the-shelf  Arduino, load sensor and ADC.
 - Can be developed as add-on to existing K3NG keyer kits.
