@@ -110,7 +110,8 @@ Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.al
 - RFI/EMI shielding
 - "paddle only" output if transceiver builtin keyer is preferred
 
-#### Feel free to post your questions and comments:
+#### Feel free to post your questions and comments.
+Github login required for posting comments. If you dont have github account, you may contact by email or social networks.
 <script src="https://utteranc.es/client.js"
         repo="djbr1/djbr1.github.io"
         issue-term="pathname"
