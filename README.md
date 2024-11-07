@@ -99,7 +99,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
  Miminalistic [**breadboard** using only Arduino Nano, ADC and passive buzzer ](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/nano_cs1237_keyer_k3ng_bb.png) for testing purposes.
 Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.aliexpress.com/item/1005005412390535.html) and [Load Sensor 300gr](https://www.aliexpress.com/item/1644918827.html) are from Alix, different shops are offering these parts.
    
- [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](#license)
+ [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
 
 
 #### TODO:    
@@ -122,6 +122,11 @@ Github login required for posting comments. If you dont have github account, you
 
 
  
+
+`Everyone is allowed to use this software to build their own kit or assembled unit (even for commercial use) as long as the `[`GPL v3 license`](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)` is respected.`
+
+
+
 #### Pictures and videos (click for larger):
 <!--[![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637.JPG?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true)  -->
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true) 
@@ -137,18 +142,10 @@ Github login required for posting comments. If you dont have github account, you
 
 
 
-<br/>
 [Youtube video showing paddle sensitivity](https://www.youtube.com/watch?v=UNnNl10UAn8)
-<br/>
+
 [![Sensitivity demo](https://img.youtube.com/vi/UNnNl10UAn8/0.jpg)](https://www.youtube.com/watch?v=UNnNl10UAn8)
-<br/>
-<script src="https://utteranc.es/client.js"
-        repo="djbr1/djbr1.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 
 
 
