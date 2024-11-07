@@ -17,6 +17,9 @@ https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp
 
 
 
+[![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true)
+
+
 
 #### Goal: 
 Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled without specialised mechanical (machining) skills.
