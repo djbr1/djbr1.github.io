@@ -131,7 +131,13 @@ Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.al
 <br/>
 [![Sensitivity demo](https://img.youtube.com/vi/UNnNl10UAn8/0.jpg)](https://www.youtube.com/watch?v=UNnNl10UAn8)
 <br/>
-
+<script src="https://utteranc.es/client.js"
+        repo="https://github.com/djbr1/djbr1.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 
