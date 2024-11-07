@@ -110,7 +110,7 @@ Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.al
 - RFI/EMI shielding
 - "paddle only" output if transceiver builtin keyer is preferred
 
- <br/><br/>
+ 
  #### Pictures and videos (click for larger):
 <!--[![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637.JPG?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true)  -->
 <br/> [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true) 
