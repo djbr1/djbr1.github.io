@@ -22,7 +22,7 @@ include:
 # Name of website
 title: <!-- Branko Djokic HB9TXB -->
 description: "Electronic Keyer with Integrated Load Sensor Paddles"
-tags: [cw, morse, iambic, strain]  
+
 
 # Your name to show in the footer
 author:  
