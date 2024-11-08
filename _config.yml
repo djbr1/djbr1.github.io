@@ -22,21 +22,7 @@ include:
 # Name of website
 title: <!-- Branko Djokic HB9TXB -->
 description: "Electronic Keyer with Integrated Load Sensor Paddles"
-tags:
-  - "load sensor"
-  - "weight sensor"
-  - "load cell"
-  - "cw keyer"
-  - "electronic keyer"
-  - "iambic keyer"
-  - "CS1237"
-  - "arduino"
-  - "paddles"
-  - "strain gauge"
-  - "ham radio"
-  - "amateur radio"
-  - "morse"
-  
+tags: [cw, morse, iambic, strain]  
 
 # Your name to show in the footer
 author:  
