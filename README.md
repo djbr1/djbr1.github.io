@@ -3,10 +3,10 @@
 <!-- # FK 11 commit   https://github.com/k3ng/k3ng_cw_keyer/pull/80    -->
 <!-- # FK 11 https://groups.io/g/radioartisan/topic/funtronics_fk_11_command_key/102553448   -->
 
-<!-- ### Proof Of Concept -->
+<!-- ### Proof Of Concept --> <!-- ### Arduino Nano / CS1237 ADC  -->
 ## Electronic Keyer with Integrated Load Sensor Paddles 
-<!-- ### Arduino Nano / CS1237 ADC  -->
-  (Author [Branko Djokic HB9TXB](https://www.qrz.com/db/hb9txb))  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brankodjokic/) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp;src=sdkprepars)  [![A](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&label=share%20on%20twitter&logoColor=white&logoSize=auto)](https://twitter.com/intent/tweet?url=https://blog.djokic.ch/&text=Electronic%20Keyer%20with%20Integrated%20Load%20Sensor%20Paddles&hashtags=keyer,iambic,paddle,morse,cwkeyer,hb9txb,morsecode) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bdjokic76%40gmail.com) [![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/41797532319)
+  #### (Author [Branko Djokic HB9TXB](https://www.qrz.com/db/hb9txb)) ####    
+   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brankodjokic/) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp;src=sdkprepars)  [![A](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&label=share%20on%20twitter&logoColor=white&logoSize=auto)](https://twitter.com/intent/tweet?url=https://blog.djokic.ch/&text=Electronic%20Keyer%20with%20Integrated%20Load%20Sensor%20Paddles&hashtags=keyer,iambic,paddle,morse,cwkeyer,hb9txb,morsecode) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bdjokic76%40gmail.com) [![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/41797532319)
 
 <!--  [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://djbr1.github.io/)  
 | [![Twitter URL](https://img.shields.io/twitter/follow/djbr)](https://twitter.com/djbr)      
@@ -29,17 +29,22 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - Load sensor paddle is an order of magnitude cheaper than mechanical paddles.
 - Better reliability compared to capacitive touch paddle - behaves like customary mechanical paddle.
 
-#### Features:
-- Sensors and ADC add-on are available as open source in [**djbr1/k3ng_cw_keyer github repository**](https://github.com/djbr1/k3ng_cw_keyer/)
+
+### Two example implementations on top of existing kits:
+
+#### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
+
+#### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
+
+#### Features (K3NG addon):
 - Equally suitable for beginners and experts.
 - Hardware components are cheap off-the-shelf  Arduino, load sensor and ADC.
-- Can be developed as add-on to existing K3NG keyer kits.
+- Can be developed as add-on to existing K3NG keyer kits 
 - Configurable "single lever" mode: Tip from right paddle can be unscrewed and only left paddle is used as classic single paddle, as if it would have two sets of contacts for dot and dash.  (not to be confused with "single mode" where iambic mode is inhibited however both paddles are used) 
 - Command line interface is available through USB interface using Serial Terminal (Putty, iTerm ...) or  [Web Serial ](https://github.com/ok1cdj/K3NG-keyer-serial-terminal)from laptop,  or [Android Serial Terminal app](https://play.google.com/store/apps/details?id=de.kai_morich.serial_usb_terminal) from handset.
  
 - All [K3NG keyer capabilities ](https://github.com/k3ng/k3ng_cw_keyer/wiki) available:
-  
-  * CW speed adjustable from 1 to 999 WPM
+    * CW speed adjustable from 1 to 999 WPM
   * Up to six selectable transmitter keying lines
   * Programming and interfacing via USB port (“command line interface”)
   * [USB or PS2 Keyboard Interface](https://github.com/k3ng/k3ng_cw_keyer/wiki/340-Feature:-Keyboard-&-Mouse#ps2--usb-keyboard-interface) for CW keyboard operation without a computer
@@ -97,7 +102,8 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
  For testing purpose see [**breadboard** using only Arduino Nano, ADC and passive buzzer ](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/nano_cs1237_keyer_k3ng_bb.png).
 Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.aliexpress.com/item/1005005412390535.html) and [Load Sensor 300gr](https://www.aliexpress.com/item/1644918827.html) are from Alix.
    
- [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
+ [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)<br>
+[![djbr1 - morserino32](https://img.shields.io/static/v1?label=djbr1&message=morserino-32&color=blue&logo=github)](https://github.com/djbr1/morserino-32 "Go to GitHub repo") [![stars - morserino-32](https://img.shields.io/github/stars/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) [![forks - morserino-32](https://img.shields.io/github/forks/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
 
 
 #### TODO:    
@@ -130,7 +136,7 @@ Github login required for posting comments. If you dont have github account, you
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1637-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1637.JPG?raw=true) 
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/k3ng_keyer_nano_cs1237.sch_2024-09-17.png?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/k3ng_keyer_nano_cs1237.sch_2024-09-17.png?raw=true)
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/nano_cs1237_keyer_k3ng_bb.png?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/nano_cs1237_keyer_k3ng_bb.png?raw=true)
-[![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1737-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1737-EDIT.jpg?raw=true) 
+[![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/IMG_1737-EDIT.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1737-EDIT.JPG?raw=true) 
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/Screenshot_2024-09-17_at_18.34.58.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/Screenshot_2024-09-17_at_18.34.58.jpg?raw=true)
 
  <!--   ![](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1330.JPG?raw=true)  -->
