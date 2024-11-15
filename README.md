@@ -30,7 +30,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - Better reliability compared to capacitive touch paddle - behaves like customary mechanical paddle.
 
 
-### Two example implementations on top of existing kits:
+### Two example implementations on top of two widespread kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
 
 #### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
 **Hardware additions to original Morserino**:
@@ -41,7 +41,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 
 As there were no free pins on Heltec ESP32, capacitive touch functionality had to be replaced with load sensor using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
 
-[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
+[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_33_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
 
 Load sensor paddles sensitivity can be changed using `m32command` syntax through web serial. It works through serial console (eg picocom, minicom, putty) or using browser (Chrome,Opera or Edge).
 Controls for sensitivity are supported in Morserino code and in HTML pages<br>
@@ -55,7 +55,7 @@ Controls for sensitivity are supported in Morserino code and in HTML pages<br>
 [![web serial console screenshot](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html_small.jpg?raw=true)](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html.jpg?raw=true)
 
 <br>
-<!--TODO: 
+<!-- TODO: 
 - single lever functionality ie using just one load sensor - preferred by HST competitors.  -->
 
 [![morserino32 shorts youtube](https://img.youtube.com/vi/P5Paj6hcao0/0.jpg)](https://www.youtube.com/watch?v=P5Paj6hcao0)
