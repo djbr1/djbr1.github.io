@@ -55,9 +55,8 @@ Controls for sensitivity are supported in Morserino code and in HTML pages<br>
 [![web serial console screenshot](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html_small.jpg?raw=true)](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html.jpg?raw=true)
 
 <br>
-<!-- TODO: 
-- single lever functionality ie using just one load sensor - preferred by HST competitors.  -->
-
+<!-- TODO:  single lever functionality ie using just one load sensor - preferred by HST competitors.  -->
+Youtube shorts demo:
 [![morserino32 shorts youtube](https://img.youtube.com/vi/P5Paj6hcao0/0.jpg)](https://www.youtube.com/watch?v=P5Paj6hcao0)
 
 
