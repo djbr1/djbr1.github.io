@@ -60,6 +60,8 @@ Youtube shorts demo:
 [![morserino32 shorts youtube](https://img.youtube.com/vi/P5Paj6hcao0/0.jpg)](https://www.youtube.com/watch?v=P5Paj6hcao0)
 
 
+[![djbr1 - morserino32](https://img.shields.io/static/v1?label=djbr1&message=morserino-32&color=blue&logo=github)](https://github.com/djbr1/morserino-32 "Go to GitHub repo") [![stars - morserino-32](https://img.shields.io/github/stars/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) [![forks - morserino-32](https://img.shields.io/github/forks/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
+
 
 
 
@@ -132,8 +134,6 @@ Youtube shorts demo:
 Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.aliexpress.com/item/1005005412390535.html) and [Load Sensor 300gr](https://www.aliexpress.com/item/1644918827.html) are from Alix.
    
  [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)<br>
-[![djbr1 - morserino32](https://img.shields.io/static/v1?label=djbr1&message=morserino-32&color=blue&logo=github)](https://github.com/djbr1/morserino-32 "Go to GitHub repo") [![stars - morserino-32](https://img.shields.io/github/stars/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) [![forks - morserino-32](https://img.shields.io/github/forks/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
-
 
 #### TODO:    
 - PCB design
