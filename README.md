@@ -30,7 +30,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - Better reliability compared to capacitive touch paddle - behaves like customary mechanical paddle.
 
 
-### Two example implementations on top of two widespread kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
+### Implementation on top of well-known kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
 
 #### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
 **Hardware additions to original Morserino**:
