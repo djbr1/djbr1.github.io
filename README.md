@@ -41,7 +41,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 
 As there were no free pins on Heltec ESP32, capacitive touch functionality had to be replaced with load sensor using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
 
-[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_33_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
+[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
 
 Load sensor paddles sensitivity can be changed using `m32command` syntax through web serial. It works through serial console (eg picocom, minicom, putty) or using browser (Chrome,Opera or Edge).
 Controls for sensitivity are supported in Morserino code and in HTML pages<br>
