@@ -32,9 +32,39 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 
 ### Two example implementations on top of existing kits:
 
-#### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
-
 #### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
+**Hardware additions to original Morserino**:
+- ESP32 free pin 13 configured as CLK for ADC sensors, one wire soldered
+- Pins 2 and 12 formerly used for capacitive touch paddle configured as DATA for two ADC 
+- GND and 3.3VEXT taken from JMP1 free holes.
+- Breadboard with 2 x CS1237 ADC plus two load sensors
+
+As there were no free pins on Heltec ESP32, capacitive touch functionality had to be replaced with load sensor using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
+
+[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
+
+Load sensor paddles sensitivity can be changed using `m32command` syntax through web serial. It works through serial console (eg picocom, minicom, putty) or using browser (Chrome,Opera or Edge).
+Controls for sensitivity are supported in Morserino code and in HTML pages<br>
+`GET control/pressure_threshold_dot`<br>
+`GET control/pressure_threshold_dash`<br>
+`PUT control/pressure_threshold_dot`<br>
+`PUT control/pressure_threshold_dash`<br>
+
+[My fork of Christof Dallermassl OE6CHD Morserino CW trainer](https://github.com/djbr1/morserino32-trainer) provides [HTML](https://github.com/djbr1/morserino32-trainer/blob/main/sensor.html) for this purpose
+
+[![web serial console screenshot](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html_small.jpg?raw=true)](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html.jpg?raw=true)
+
+<br>
+<!--TODO: 
+- single lever functionality ie using just one load sensor - preferred by HST competitors.  -->
+
+[![morserino32 shorts youtube](https://img.youtube.com/vi/P5Paj6hcao0/0.jpg)](https://www.youtube.com/watch?v=P5Paj6hcao0)
+
+
+
+
+
+#### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
 
 #### Features (K3NG addon):
 - Equally suitable for beginners and experts.
