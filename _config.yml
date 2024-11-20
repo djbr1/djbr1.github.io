@@ -20,7 +20,8 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 # Name of website
-title: <!-- Branko Djokic HB9TXB -->
+#title: <!-- Branko Djokic HB9TXB -->
+title: HB9TXB
 description: "Electronic Keyer with Integrated Load Sensor Paddles"
 
 
