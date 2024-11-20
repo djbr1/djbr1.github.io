@@ -1,9 +1,5 @@
 <!-- # djbr1.github.io -->
 
-<!-- # FK 11 commit   https://github.com/k3ng/k3ng_cw_keyer/pull/80    -->
-<!-- # FK 11 https://groups.io/g/radioartisan/topic/funtronics_fk_11_command_key/102553448   -->
-
-<!-- ### Proof Of Concept --> <!-- ### Arduino Nano / CS1237 ADC  -->
 ## Electronic Keyer with Integrated Load Sensor Paddles 
 #### (Author [Branko Djokic HB9TXB](https://www.qrz.com/db/hb9txb))     
    [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brankodjokic/) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp;src=sdkprepars)  [![A](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&label=share%20on%20twitter&logoColor=white&logoSize=auto)](https://twitter.com/intent/tweet?url=https://blog.djokic.ch/&text=Electronic%20Keyer%20with%20Integrated%20Load%20Sensor%20Paddles&hashtags=keyer,iambic,paddle,morse,cwkeyer,hb9txb,morsecode) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bdjokic76%40gmail.com) [![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/41797532319)
@@ -39,16 +35,16 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - GND and 3.3VEXT taken from JMP1 free holes.
 - Breadboard with 2 x CS1237 ADC plus two load sensors
 
-As there were no free pins on Heltec ESP32, capacitive touch functionality had to be replaced with load sensor using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
+As there were no free pins on Heltec ESP32, capacitive touch and load pressor sensor functionality cannot be present in the same time.Load sensor is activated using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
 
 [![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
 
 Load sensor paddles sensitivity can be changed using `m32command` syntax through web serial. It works through serial console (eg picocom, minicom, putty) or using browser (Chrome,Opera or Edge).
 Controls for sensitivity are supported in Morserino code and in HTML pages<br>
-`GET control/pressure_threshold_dot`<br>
-`GET control/pressure_threshold_dash`<br>
-`PUT control/pressure_threshold_dot`<br>
-`PUT control/pressure_threshold_dash`<br>
+`GET control/pstdot`<br>
+`GET control/pstdash`<br>
+`PUT control/pstdot/<value>`<br>
+`PUT control/pstdash/<value>`<br>
 
 [My fork of Christof Dallermassl OE6CHD Morserino CW trainer](https://github.com/djbr1/morserino32-trainer) provides [HTML](https://github.com/djbr1/morserino32-trainer/blob/main/sensor.html) for this purpose
 
