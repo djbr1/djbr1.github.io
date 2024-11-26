@@ -1,6 +1,6 @@
 <!-- # djbr1.github.io -->
+## Electronic Keyer with Integrated Load Sensor Paddles          
 
-## Electronic Keyer with Integrated Load Sensor Paddles 
 #### (Author [Branko Djokic HB9TXB](https://www.qrz.com/db/hb9txb))     
    [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brankodjokic/) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp;src=sdkprepars)  [![A](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&label=share%20on%20twitter&logoColor=white&logoSize=auto)](https://twitter.com/intent/tweet?url=https://blog.djokic.ch/&text=Electronic%20Keyer%20with%20Integrated%20Load%20Sensor%20Paddles&hashtags=keyer,iambic,paddle,morse,cwkeyer,hb9txb,morsecode) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bdjokic76%40gmail.com) [![whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/41797532319)
 
@@ -150,7 +150,7 @@ Github login required for posting comments. If you dont have github account, you
         async>
 </script>
 
-
+[text summary translated to YU/9A/E7/4O ](https://blog.hb9txb.ch/README_sr.html)
  
 
 `Everyone is allowed to use this software to build their own kit or assembled unit (even for commercial use) as long as the `[`GPL v3 license`](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)` is respected.`
