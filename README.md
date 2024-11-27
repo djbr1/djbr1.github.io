@@ -39,6 +39,8 @@ As there were no free pins on Heltec ESP32, capacitive touch and load pressor se
 
 [![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
 [![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1812_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1812.JPG?raw=true)
+[![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1752_small.jpg?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1752.JPG?raw=true)
+
 
 Load sensor paddles sensitivity can be changed using `m32command` syntax through web serial. It works through serial console (eg picocom, minicom, putty) or using browser (Chrome,Opera or Edge).
 Controls for sensitivity are supported in Morserino code and in HTML pages<br>
@@ -166,7 +168,7 @@ Github login required for posting comments. If you dont have github account, you
 [![image](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/resized/Screenshot_2024-09-17_at_18.34.58.jpg?raw=true)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/Screenshot_2024-09-17_at_18.34.58.jpg?raw=true)
 
  <!--   ![](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1330.JPG?raw=true)  -->
- <!--   ![](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1329.JPG?raw=true)  -->
+ <!--   ![](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1329.JPG?raw=true)  -->§
 <!--    ![](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/IMG_1344.JPG?raw=true)  -->
 
 

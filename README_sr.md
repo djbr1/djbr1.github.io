@@ -12,8 +12,8 @@ https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.djokic.sh%2F&amp
 -->
 
 #### Motivacija
-Nisam bio zadovoljan složenošću i visokom cenom mehaničkih ručica pa sam odlučio dizajnirati i napisati softver za ručice na bazi "senzora opterećenja" i objaviti kao Open Source.
-Moja želja je da što veći broj amatera pokuša da napravi taster sa integrisanom ručicom i tako olakša učenje telegrafije.
+Nisam bio zadovoljan složenošću i visokom cenom mehaničkih ručica pa sam odlučio dizajnirati i napisati softver za ručice na bazi "senzora opterećenja" i objaviti kao **Open Source**.
+Moja želja je da što veći broj amatera napravi taster sa integrisanom ručicom i vežba telegrafiju, nešto kao  [Taster TS-3](https://www.radista.info/morse_keys/morse_key_TS3.jpg) za 21.vek
 
 
 
