@@ -105,3 +105,5 @@ Github login required for posting comments. If you dont have github account, you
 [Exhibited at Surplusparty Zofingen Switzerland](https://www.facebook.com/photo/?fbid=8925310450834424&set=a.161506880548202)
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbranko.djokic.3%2Fposts%2Fpfbid025Q9LoAPCpsiQWPDDYp6zj8ZT96pvEUVKRWWTM4j9gr5fbb1omou72AvDnHHzjWKjl&show_text=true&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
+[HB9LU USKA Sektion Luzern - Meeting on 20.09.2024](https://hb9lu.ch/rueckblick-zum-hb9lu-stammabend-vom-20-09-2024/)
+
