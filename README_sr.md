@@ -100,5 +100,8 @@ Github login required for posting comments. If you dont have github account, you
 
 `Everyone is allowed to use this software to build their own kit or assembled unit (even for commercial use) as long as the `[`GPL v3 license`](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)` is respected.`
 
+=====================================================================================
 
+[Exhibited at Surplusparty Zofingen Switzerland](https://www.facebook.com/photo/?fbid=8925310450834424&set=a.161506880548202)
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbranko.djokic.3%2Fposts%2Fpfbid025Q9LoAPCpsiQWPDDYp6zj8ZT96pvEUVKRWWTM4j9gr5fbb1omou72AvDnHHzjWKjl&show_text=true&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
