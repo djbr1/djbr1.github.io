@@ -28,9 +28,9 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 
 ### Implementation on top of well-known kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
 
-`NB: load sensor paddles have hardware and software part.`</br>
-` Hardware is load (weight) sensor and ADC (integrated circuit on breakout board).`</br>
-`Software part is modification of original keyer software: driver libraries for ADC and code for reading sensor values and threshold sensitivity adjustment  `
+```NB: load sensor paddles have hardware and software part.```\
+``` Hardware is load (weight) sensor and ADC (integrated circuit on breakout board).```\
+```Software part is modification of original keyer software: driver libraries for ADC and code for reading sensor values and threshold sensitivity adjustment  ```
 
 #### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
 **Hardware additions to original Morserino electronics**:
