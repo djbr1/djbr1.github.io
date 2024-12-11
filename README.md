@@ -28,12 +28,17 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 
 ### Implementation on top of well-known kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
 
+`NB: load sensor paddles have hardware and software part.`</br>
+` Hardware is load (weight) sensor and ADC (integrated circuit on breakout board).`</br>
+`Software part is modification of original keyer software: driver libraries for ADC and code for reading sensor values and threshold sensitivity adjustment  `
+
 #### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
-**Hardware additions to original Morserino**:
-- ESP32 free pin 13 configured as CLK for ADC sensors, one wire soldered
-- Pins 2 and 12 formerly used for capacitive touch paddle configured as DATA for two ADC 
+**Hardware additions to original Morserino electronics**:
+- Breadboard with 2 x CS1237 ADC breakout boards
+- ESP32 free pin 13 configured as CLK for both ADC sensors, one wire soldered
+- Pins 2 and 12 (formerly used for capacitive touch paddle) configured as DATA for two ADC 
 - GND and 3.3VEXT taken from JMP1 free holes.
-- Breadboard with 2 x CS1237 ADC plus two load sensors
+- Two load sensors (300-500 gr max range) as key paddles
 
 As there were no free pins on Heltec ESP32, capacitive touch and load pressor sensor functionality cannot be present in the same time.Load sensor is activated using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
 
@@ -65,6 +70,13 @@ Youtube shorts demo:
 
 
 #### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
+
+**Hardware additions to existing K3NG keyer electronics**:
+- Breadboard with 2 x CS1237 ADC breakout boards
+- GND and 5V from Arduino
+- Arduino pin 10 configured as SCLK for both ADC CS1237
+- Arduino pins 6 and 9 configured as DATA for each ADC CS1237
+- Two load sensors (300-500 gr max range) as key paddles
 
 #### Features (K3NG addon):
 - Equally suitable for beginners and experts.
