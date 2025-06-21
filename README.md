@@ -26,13 +26,13 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - Better reliability compared to capacitive touch paddle - behaves like customary mechanical paddle.
 
 
-### Implementation on top of well-known kits: [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
+#### Implementation was done on top of well-known kits [OE1WKL Morserino-32](#oe1wkl-morserino-32-v6-with-load-sensor-add-on) and [K3NG keyer](#k3ng-keyer-with-load-sensor-add-on)
 
 ```NB: load sensor paddles have hardware and software part.```\
 ``` Hardware is load (weight) sensor and ADC (integrated circuit on breakout board).```\
 ```Software part is modification of original keyer software: driver libraries for ADC and code for reading sensor values and threshold sensitivity adjustment  ```
 
-#### [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) with load sensor add-on
+### Description [OE1WKL Morserino-32 v6](https://github.com/djbr1/Morserino-32) load sensor add-on
 **Hardware additions to original Morserino electronics**:
 - Breadboard with 2 x CS1237 ADC breakout boards
 - ESP32 free pin 13 configured as CLK for both ADC sensors, one wire soldered
@@ -40,7 +40,7 @@ Affordable, feature-rich keyer with built-in  iambic paddle, easily assembled wi
 - GND and 3.3VEXT taken from JMP1 free holes.
 - Two load sensors (300-500 gr max range) as key paddles
 
-As there were no free pins on Heltec ESP32, capacitive touch and load pressor sensor functionality cannot be present in the same time.Load sensor is activated using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
+As there were no free pins on Heltec ESP32, capacitive touch and load pressor sensor functionality cannot be present in the same time. Load sensor is activated using preprocessor directive `#define FEATURE_PRESSURE_PADDLES` in `morsedefs.h`.
 
 [![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1763.JPG?raw=true)
 [![Morserino Image](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1812_small.JPG?raw=true)](https://raw.githubusercontent.com/djbr1/Morserino-32/master//Documentation/Hardware/IMG_1812.JPG?raw=true)
@@ -53,23 +53,24 @@ Controls for sensitivity are supported in Morserino code and in HTML pages<br>
 `GET control/pstdash`<br>
 `PUT control/pstdot/<value>`<br>
 `PUT control/pstdash/<value>`<br>
-
-[My fork of Christof Dallermassl OE6CHD Morserino CW trainer](https://github.com/djbr1/morserino32-trainer) provides [HTML](https://github.com/djbr1/morserino32-trainer/blob/main/sensor.html) for this purpose
+[Fork of Christof Dallermassl OE6CHD Morserino CW trainer](https://github.com/djbr1/morserino32-trainer) provides [HTML](https://github.com/djbr1/morserino32-trainer/blob/main/sensor.html) for this purpose
 
 [![web serial console screenshot](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html_small.jpg?raw=true)](https://github.com/djbr1/Morserino-32/blob/master/Documentation/Hardware/sensor.html.jpg?raw=true)
 
 <br>
 <!-- TODO:  single lever functionality ie using just one load sensor - preferred by HST competitors.  -->
 Youtube shorts demo:
+
 [![morserino32 shorts youtube](https://img.youtube.com/vi/P5Paj6hcao0/0.jpg)](https://www.youtube.com/watch?v=P5Paj6hcao0)
 
+Source code published in repository [https://github.com/djbr1/morserino-32](https://github.com/djbr1/morserino-32 )
 
 [![djbr1 - morserino32](https://img.shields.io/static/v1?label=djbr1&message=morserino-32&color=blue&logo=github)](https://github.com/djbr1/morserino-32 "Go to GitHub repo") [![stars - morserino-32](https://img.shields.io/github/stars/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) [![forks - morserino-32](https://img.shields.io/github/forks/djbr1/morserino-32?style=social)](https://github.com/djbr1/morserino-32) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)
 
 
 
 
-#### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
+### [K3NG keyer](https://github.com/djbr1/k3ng_cw_keyer/) with load sensor add-on
 
 **Hardware additions to existing K3NG keyer electronics**:
 - Breadboard with 2 x CS1237 ADC breakout boards
@@ -82,7 +83,7 @@ Youtube shorts demo:
 - Equally suitable for beginners and experts.
 - Hardware components are cheap off-the-shelf  Arduino, load sensor and ADC.
 - Can be developed as add-on to existing K3NG keyer kits 
-- Configurable "single lever" mode: Tip from right paddle can be unscrewed and only left paddle is used as classic single paddle, as if it would have two sets of contacts for dot and dash.  (not to be confused with "single mode" where iambic mode is inhibited however both paddles are used) 
+- Configurable "single lever" mode: Tip from right hand paddle can be unscrewed and only left paddle is used as classic single paddle, as if it would have two sets of contacts for dot and dash.  (not to be confused with "single mode" where iambic mode is inhibited however both paddles are used) 
 - Command line interface is available through USB interface using Serial Terminal (Putty, iTerm ...) or  [Web Serial ](https://github.com/ok1cdj/K3NG-keyer-serial-terminal)from laptop,  or [Android Serial Terminal app](https://play.google.com/store/apps/details?id=de.kai_morich.serial_usb_terminal) from handset.
  
 - All [K3NG keyer capabilities ](https://github.com/k3ng/k3ng_cw_keyer/wiki) available:
@@ -143,8 +144,12 @@ Youtube shorts demo:
  [**Schematic diagram**](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/k3ng_keyer_nano_cs1237.sch_2024-09-17.pdf) is based on OK1CDJ nano keyer implementation.
  For testing purpose see [**breadboard** using only Arduino Nano, ADC and passive buzzer ](https://github.com/djbr1/k3ng_cw_keyer/blob/master/k3ng_keyer/ADC_CS1237/nano_cs1237_keyer_k3ng_bb.png).
 Arduino, speaker and breadboard are readily available.  [ADC1237](https://www.aliexpress.com/item/1005005412390535.html) and [Load Sensor 300gr](https://www.aliexpress.com/item/1644918827.html) are from Alix.
-   
+
+Source code published in repository [https://github.com/djbr1/k3ng_cw_keyer_LSP](https://github.com/djbr1/k3ng_cw_keyer_LSP )
+
  [![djbr1 - k3ng_cw_keyer](https://img.shields.io/static/v1?label=djbr1&message=k3ng_cw_keyer&color=blue&logo=github)](https://github.com/djbr1/k3ng_cw_keyer "Go to GitHub repo") [![stars - k3ng_cw_keyer](https://img.shields.io/github/stars/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) [![forks - k3ng_cw_keyer](https://img.shields.io/github/forks/djbr1/k3ng_cw_keyer?style=social)](https://github.com/djbr1/k3ng_cw_keyer) | [![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/djbr1/k3ng_cw_keyer/blob/master/LICENSE)<br>
+
+
 
 #### TODO:    
 - PCB design
@@ -191,6 +196,6 @@ Github login required for posting comments. If you dont have github account, you
 [![Sensitivity demo](https://img.youtube.com/vi/UNnNl10UAn8/0.jpg)](https://www.youtube.com/watch?v=UNnNl10UAn8)
 
 
-
+[Google Photos Album](https://photos.app.goo.gl/WmQrYif5xkJLgzFi9)
 
 
