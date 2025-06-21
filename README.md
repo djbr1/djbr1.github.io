@@ -199,3 +199,17 @@ Github login required for posting comments. If you dont have github account, you
 [Google Photos Album](https://photos.app.goo.gl/WmQrYif5xkJLgzFi9)
 
 
+==============================
+
+Calculating Morse speed:
+
+Word PARIS has:<br>
+10 dits = 10 units; 4 dahs = 12 units; 9 intra-character spaces = 9 units; 4 inter-character spaces =12 units; 1 word space = 7 units.
+A grand total of  50 “elementary dots” (units).
+
+| WPM  | element.dots per minute |element.dot duration |
+| ------------- | ------------- | ------------- |
+| 5  | 250  | 240ms  |
+| 25  | 1250  | 48ms  |
+| 30  | 150  | 40ms  |
+| 50  | 2500  | 24ms  |
